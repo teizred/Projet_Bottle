@@ -99,12 +99,11 @@ padding: 1rem 2rem;
 /* home page texts */
 /* neeeds new font or different stlying and postions */
 h1 {
-  color: white;
-  font-size: 7rem;
-  margin-bottom: 0.5rem;
+  color: #495d23;
+  font-size: 6.6rem;
 }
 p{
-  color: white;
+  color: rgb(79, 114, 73);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
@@ -113,27 +112,43 @@ p{
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 90vh;
-  padding-top: 20px; 
-  padding-right:60%;
-  padding-bottom: 5%;
+  justify-content: space-between;
+  top: 100px;
+  /* padding-top: 100px;  */
+  padding-right:65%;
+  position: relative;
 }
 
-.hero-content {
-  text-align: center;
+/* .hero-content {
   max-width: 800px;
   padding: 2rem;
+} */
+
+.hero-content .bio {
+  padding: 1rem;
 }
 
 .tagline {
-  text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 30px;
 
 }
 
 .bio {
-  text-align: center;
-  line-height: 1.2;
-  padding-top: 10%;
+  line-height: 1.4;
+}
+
+.hero-info {
+  position: absolute;
+  top: 65%;
+  right: 8%;
+  transform: translateY(-50%);
+  text-align: left;
+  font-size: 1.7rem;
+  color: rgb(79, 114, 73);
+}
+
+.features-title {
+  font-size: 40px;
+  padding: 10px;
+  color: #495d23
 }
